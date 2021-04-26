@@ -1,0 +1,42 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%;
+}
+body {
+  margin:0;
+}
+
+.bgimg {
+  background-image: url('rkKJCiF.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: aqua;
+  font-family: "Bold 700", Bold 700;
+  font-size: 25px;
+  
+}
+
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  color:aqua;
+  text-decoration:none !important;
+  cursor:pointer;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
