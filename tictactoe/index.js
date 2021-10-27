@@ -17,7 +17,7 @@ function resetboard(allcells) {
 }
 // Checks if there is an winner.
 function checkstatus(allcells) {
-    // X <img src="pepo.png" width="150" height="150"> wins.
+    // Checks if pepo wins.
 
     // HORIZONTAL
     if (allcells[0].innerHTML == x && allcells[1].innerHTML == x && allcells[2].innerHTML == x)
@@ -41,7 +41,7 @@ function checkstatus(allcells) {
     if (allcells[2].innerHTML == x && allcells[5].innerHTML == x && allcells[8].innerHTML == x)
         return x;
 
-    // O <img src="cat.jpg" width="150" height="150"> wins.
+    // Checks if cat wins.
 
     // HORIZONTAL
     if (allcells[0].innerHTML == o && allcells[1].innerHTML == o && allcells[2].innerHTML == o)
