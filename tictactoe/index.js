@@ -231,6 +231,7 @@ function game() {
                                 if (!twoplayer) {
                                     alert(`cat ${team == "Cat" ? pseudo : bot} a gagné`);
                                     setTimeout(() => resetboard(cells), 300);
+                                    break;
                                 }
                                 alert(`cat ${pseudo2} a gagné`);
                                 setTimeout(() => resetboard(cells), 300);
